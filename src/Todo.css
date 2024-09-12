@@ -1,0 +1,63 @@
+.App {
+	padding: 20px 0px 0px 40px;
+}
+
+h1 {
+	width: 10%;
+	border-bottom: 2px solid black;
+	padding: 2px;
+}
+
+.chore {
+	width: 150px;
+	background-color: grey;
+	border-radius: 10px;
+	color: white;
+	padding: 1px 20px;
+	margin: 15px 0px;
+	font-size: 20px;
+}
+
+.chore.finished {
+	text-decoration: line-through;
+	background-color: darkgrey;
+}
+
+.Form {
+	width: 20%;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.Button {
+	height: 45px;
+	width: 5%;
+	margin-left: 10px;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+.Button2 {
+	height: 45px;
+	width: 20%;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+:hover.Button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+
+:hover.Button {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
